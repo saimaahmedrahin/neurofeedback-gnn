@@ -1,10 +1,14 @@
 # Neurofeedback GNN Project Progress
 
 ## Checkpoint 1: GPU Verification ✓ DONE
-- Date: July 17, 2026
-- Command: `python checkpoint1_gpu_test.py`
-- Result: CUDA available: True, GPU: RTX 3050, CUDA: 11.8
-- Status: PASS
+- Date: July 18, 2026
+- Command: `import torch` + verification print statements
+- Result: 
+  - CUDA available: True
+  - GPU name: NVIDIA GeForce RTX 3050 Laptop GPU
+  - CUDA version: 11.8
+- Status: PASS ✓
+- Next: Checkpoint 2 (Load MDDvsHC data)
 
 ## Checkpoint 2: Load MDDvsHC Data (IN PROGRESS)
 - Started: July 17, 2026
