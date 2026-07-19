@@ -18,6 +18,16 @@
 - Status: PASS ✓
 - Next: Checkpoint 3 (Run Selim's pipeline on one subject)
 
-## Checkpoint 3: Run Selim's Pipeline
-- Status: NOT STARTED
-- Estimated: 1-2 hours
+## Checkpoint 3: Load Real fMRI Data ✓ DONE
+- Date: July 18, 2026
+- Result: Successfully loaded subject E3746
+  - Data shape: 96 × 114 × 96 voxels, 260 timepoints
+  - File format: AFNI (errts format)
+- Status: PASS ✓
+- Next: Compute connectivity matrix and build graph
+
+## Summary
+- GPU verified ✓ (RTX 3050)
+- Data located ✓ (24 Rest1 + 23 Rest2 subjects)
+- Real fMRI loaded ✓ (subject E3746)
+- Next: Sliding-window connectivity → GNN pipeline
