@@ -10,11 +10,13 @@
 - Status: PASS ✓
 - Next: Checkpoint 2 (Load MDDvsHC data)
 
-## Checkpoint 2: Load MDDvsHC Data (IN PROGRESS)
-- Started: July 17, 2026
-- Task: Download data from Teams, inspect structure
-- Folder structure: [will update when done]
-- Blockers: None yet
+## Checkpoint 2: Load & Inspect MDDvsHC Data ✓ DONE
+- Date: July 18, 2026
+- Result: Found fMRI data folder with 2 items
+  - Processed rest scans
+  - Processed rest2 scans
+- Status: PASS ✓
+- Next: Checkpoint 3 (Run Selim's pipeline on one subject)
 
 ## Checkpoint 3: Run Selim's Pipeline
 - Status: NOT STARTED
