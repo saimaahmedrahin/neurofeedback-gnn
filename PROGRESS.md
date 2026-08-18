@@ -31,3 +31,10 @@
 - Data located ✓ (24 Rest1 + 23 Rest2 subjects)
 - Real fMRI loaded ✓ (subject E3746)
 - Next: Sliding-window connectivity → GNN pipeline
+
+## Checkpoint 4: Compute Connectivity Matrix ✓ DONE
+- Subject E3746 connectivity computed
+- Edges (r > 0.6): 40
+- Network density: 0.0001
+- Status: PASS ✓
+- Next: Checkpoint 5 (scale to all 37 subjects) 
