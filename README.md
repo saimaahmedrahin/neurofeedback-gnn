@@ -42,7 +42,7 @@ Exploratory association with MADRS symptom change
 | `01_dataset_audit.ipynb` | Audits participant availability, paired Rest1/Rest2 imaging, metadata, and imaging quality control. |
 | `02_parcellation_216roi.ipynb` | Extracts resting-state time series using the Schaefer-200 cortical and Tian-16 subcortical parcellations. |
 | `03_functional_connectivity.ipynb` | Constructs ROI-level functional-connectivity matrices and 36 network-level connectivity features. |
-| `04_prediction.ipynb` | Models the dominant brain-network transition using PCA, nested LOOCV Ridge regression, and permutation testing. |
+| `04_prediction.ipynb` | Models the dominant brain-network transition using PCA, nested LOOCV Ridge regression, and permutation testing. Includes PC1 loading stability, mathematical-coupling diagnostics, baseline-adjusted post-intervention prediction, head-motion sensitivity analyses, and descriptive Bland–Altman analysis. |
 | `05_neurobehavioral_outcomes.ipynb` | Examines the exploratory association between the dominant neural transition and MADRS symptom change. |
 | `06_neurofeedback_run_audit.ipynb` | Audits the availability of intermediate neurofeedback training-run imaging data. |
 
